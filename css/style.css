@@ -1,0 +1,210 @@
+body {
+    overflow-x: hidden; 
+    overflow-y: scroll;
+}
+
+
+/*  Barre de navigation  */
+.nav-bar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    margin: -10px -8px 0 -10px;
+    padding : 5px 0 5px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*  Liens de la barre de navigation  */
+a {
+    padding : 7px 5px 7px 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    border: none;
+    border-radius: 100px;
+    background-color: tomato; 
+    cursor: pointer;
+}
+
+.propos {
+    position: relative;
+    left: 41rem;
+}
+.compétences {
+    position: relative;
+    left: 42rem;
+}
+
+.projets {
+    position: relative;
+    left: 43rem;
+}
+.contact {
+    position: relative;
+    left: 44rem;
+}
+
+/*  Image de couverutre */
+.cover-img {
+    margin-left: -10px;
+    width: 81rem;
+    height:30rem ;
+  }
+
+/*  A propos section  */
+.description-section {
+    padding-top: 1rem;
+    margin: -5px -15px 0px -15px;
+    background-color : lightblue;
+}
+
+
+.description-paragraph{
+    font-family: cursive;
+    font-size: 1.5rem;
+    line-height: 140%;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.my-photo {
+    width: 27rem;
+    margin-left: 100px;
+    padding-top: 25px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    padding-left: 25px;
+    color: blue;
+}
+
+#description {
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.formation-img {
+    display: flex;
+    justify-content: center;
+}
+
+/*  Compétences section */
+.compétences-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.compétences-img img {
+  width : 70px;
+  height: 70px;
+}
+
+
+#css {
+    width: 60px;
+}
+
+#html {
+    width: 100px;
+    height: 80px;
+}
+
+#boostrap {
+    width: 90px;
+    height: 90px;
+}
+
+#gitkraken {
+    width: 80px;
+}
+
+
+/* Projets section*/
+.projets-section {
+    display: flex;
+    justify-content: space-around;
+}
+.projet-img {
+    width: 500px;
+    height: 400px;
+}
+
+.projet-img:hover {
+    transform: scale(1.15);
+}
+
+h4,p {
+    text-align: center;
+}
+
+h4 {
+    margin-top: 30px;
+    text-decoration: underline overline;
+    color: tomato;
+}
+
+progress {
+  color: blue;
+  background: tomato;
+ }
+
+/* Contact section */
+iframe {
+    display: block;
+    margin: auto;
+    margin-bottom: 6rem;
+}
+
+i {
+    color: tomato;
+    transform: scale(2);
+}
+
+.contact-link {
+   background-color: transparent;
+   margin-left: 55px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    background-color : lightblue;
+    padding-top: 50px;
+}
+
+span {
+    margin-left: 20px;
+}
+
+div dl {
+    margin-bottom: 70px;
+}
+
+dl {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table{
+   transform: scaleX(1.2);
+   padding: 30px 30px 30px 30px;
+   box-shadow: 0 3px 10px tomato;
+}
+
+input, select,textarea {
+    margin-bottom: 10px;
+    color: blue;
+ }
+ 
+ 
+ .button {
+     background-color: tomato;
+     padding : 7px 5px 7px 5px;
+     border-radius: 100px;
+ }
+
+ 
